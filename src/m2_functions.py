@@ -39,8 +39,9 @@ def main():
 # TODO: 3b.  In main, CALL your function and print the returned value,
 #   to test whether you defined the function correctly.
 #
-###############################################################################
-
+##############################################################################
+def main():
+    
 
 ###############################################################################
 # TODO: 4a.  Define a function immediately below this _TODO_.
