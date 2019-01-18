@@ -7,7 +7,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 """  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ###############################################################################
-# TODO: 2.
+# DONE: 2.
 #   Allow this module to use the  rosegraphics.py  module by marking the
 #     src
 #   folder in this project as a "Sources Root", as follows:
