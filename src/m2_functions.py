@@ -16,19 +16,18 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #     then select  Mark Directory As  ~  Sources Root.
 #
 ###############################################################################
-
+import math
 import rosegraphics as rg
 
 
 def main():
-    """
-    TESTS the functions that you will write below.
-    You write the tests per the _TODO_s below.
-    """
+    answer = pythagorean(3, 4)
+    print(answer)
+
 
 
 ###############################################################################
-# TODO: 3a.  Define a function immediately below this _TODO_.
+# DONE: 3a.  Define a function immediately below this _TODO_.
 #   It takes two arguments that denote, for a right triangle,
 #   the lengths of the two sides adjacent to its right angle,
 #   and it returns the length of the hypotenuse of that triangle.
@@ -40,8 +39,12 @@ def main():
 #   to test whether you defined the function correctly.
 #
 ##############################################################################
-def main():
-    
+def pythagorean(a, b):
+    c = math.sqrt(a ** 2 + b ** 2)
+    return c
+
+
+
 
 ###############################################################################
 # TODO: 4a.  Define a function immediately below this _TODO_.
