@@ -25,7 +25,6 @@ def main():
     print(answer)
 
 
-
 ###############################################################################
 # DONE: 3a.  Define a function immediately below this _TODO_.
 #   It takes two arguments that denote, for a right triangle,
@@ -42,8 +41,6 @@ def main():
 def pythagorean(a, b):
     c = math.sqrt(a ** 2 + b ** 2)
     return c
-
-
 
 
 ###############################################################################
@@ -73,6 +70,7 @@ def pythagorean(a, b):
 #   for the arguments) to test whether you defined the function correctly.
 #
 ###############################################################################
+def izzy(a, b):
 
 
 ###############################################################################
