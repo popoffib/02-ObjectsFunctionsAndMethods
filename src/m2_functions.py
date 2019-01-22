@@ -18,11 +18,14 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 ###############################################################################
 import math
 import rosegraphics as rg
+window = rg.TurtleWindow()
 
 
 def main():
     answer = pythagorean(3, 4)
     print(answer)
+    izzy('green', 5)
+    carl('green', 5)
 
 
 ###############################################################################
@@ -44,7 +47,7 @@ def pythagorean(a, b):
 
 
 ###############################################################################
-# TODO: 4a.  Define a function immediately below this _TODO_.
+# DONE: 4a.  Define a function immediately below this _TODO_.
 #   It takes two arguments:
 #     -- a string that represents a color (e.g. 'red')
 #     -- a positive integer that represents the thickness of a Pen.
@@ -70,7 +73,19 @@ def pythagorean(a, b):
 #   for the arguments) to test whether you defined the function correctly.
 #
 ###############################################################################
+
 def izzy(a, b):
+    coffee = rg.SimpleTurtle('turtle')
+    coffee.pen = rg.Pen(a, 5)
+    coffee.forward(100)
+    return coffee
+
+
+def carl(a, b):
+    elle = rg.SimpleTurtle('turtle')
+    elle.pen = rg.Pen('blue', b)
+    elle.backward(100)
+    return elle
 
 
 ###############################################################################
@@ -99,3 +114,4 @@ def izzy(a, b):
 # Calls  main  to start the ball rolling.
 # -----------------------------------------------------------------------------
 main()
+window.close_on_mouse_click()
