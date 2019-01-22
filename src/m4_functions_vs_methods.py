@@ -160,7 +160,7 @@ def try_functions():
      -- One jumps to (-50, 50), then moves (while drawing) to (100, 100)
     """
     ###########################################################################
-    # TODO: 5. Implement and test this function, per its doc-string above.
+    # DONE: 5. Implement and test this function, per its doc-string above.
     #   The testing code (in main) is already written for you.
     #
     #    NOTE: This function requires
@@ -169,6 +169,10 @@ def try_functions():
     #    HINT: see   jump_and_move_turtle   above.
     ###########################################################################
 
+
+jump_and_move_turtle(200, 100, 300, 30)
+jump_and_move_turtle(100, 200, 0, 0)
+jump_and_move_turtle(-50, 50, 100, 100)
 
 ###############################################################################
 # IMPORTANT: Read the NOTE below before you try to implement the next function!
