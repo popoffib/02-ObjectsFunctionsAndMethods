@@ -29,7 +29,7 @@ def main():
 
 
 ###############################################################################
-# TODO: 2.
+# DONE: 2.
 #   First, RUN this program.  You will see that it draws concentric circles
 #   whose radii vary by 15.
 #
