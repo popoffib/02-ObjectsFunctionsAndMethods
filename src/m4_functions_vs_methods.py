@@ -136,9 +136,17 @@ def try_methods():
       -- backward  100 units
     """
     ###########################################################################
-    # TODO: 4. Implement and test this function, per its doc-string above.
+    # DONE: 4. Implement and test this function, per its doc-string above.
     #   The testing code (in main) is already written for you.
     ###########################################################################
+
+
+jerry = rg.SimpleTurtle('turtle')
+jerry.pen = rg.Pen('brown', 5)
+jerry.forward(150)
+jerry.left(90)
+jerry.forward(50)
+jerry.backward(100)
 
 
 ###############################################################################
