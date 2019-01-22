@@ -24,8 +24,8 @@ window = rg.TurtleWindow()
 def main():
     answer = pythagorean(3, 4)
     print(answer)
-    izzy('green', 5)
-    carl('green', 5)
+    izzy('blue', 7)
+    izzy('red', 5)
 
 
 ###############################################################################
@@ -75,17 +75,15 @@ def pythagorean(a, b):
 ###############################################################################
 
 def izzy(a, b):
-    coffee = rg.SimpleTurtle('turtle')
-    coffee.pen = rg.Pen(a, 5)
-    coffee.forward(100)
-    return coffee
-
-
-def carl(a, b):
+    carl = rg.SimpleTurtle('turtle')
     elle = rg.SimpleTurtle('turtle')
-    elle.pen = rg.Pen('blue', b)
+    carl.pen = rg.Pen('green', b)
+    elle.pen = rg.Pen(a, 5)
+    carl.forward(100)
     elle.backward(100)
-    return elle
+
+
+window.close_on_mouse_click()
 
 
 ###############################################################################
