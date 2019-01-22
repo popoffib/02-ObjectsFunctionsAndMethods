@@ -174,6 +174,7 @@ jump_and_move_turtle(200, 100, 300, 30)
 jump_and_move_turtle(100, 200, 0, 0)
 jump_and_move_turtle(-50, 50, 100, 100)
 
+
 ###############################################################################
 # IMPORTANT: Read the NOTE below before you try to implement the next function!
 ###############################################################################
@@ -210,13 +211,30 @@ def try_methods_and_functions():
       8. Draw a SQUARE whose sides are each of length 50.
     """
     ###########################################################################
-    # TODO: 6. Implement and test this function, per its doc-string above.
+    # DONE: 6. Implement and test this function, per its doc-string above.
     #   The testing code (in main) is already written for you.
     #
     #   NOTE: This function should ** CALL ** the
     #     draw_many_squares
     #   function defined above.  If you don't see why, ** ASK FOR HELP. **
     ###########################################################################
+
+
+tim = rg.SimpleTurtle('turtle')
+tim.pen = rg.Pen('blue', 5)
+tim.backward(150)
+tim.speed = 1
+draw_many_squares(tim, 2, 100, 30)
+tim.speed = 5
+tim.pen = rg.Pen('red', 5)
+draw_many_squares(tim, 10, 50, 15)
+tim.speed = 100
+tim.pen = rg.Pen('red', 35)
+draw_many_squares(tim, 8, 300, 60)
+tim.pen = rg.Pen('black', 3)
+tim.backward(200)
+tim.draw_circle(30)
+tim.draw_square(50)
 
 
 # -----------------------------------------------------------------------------
