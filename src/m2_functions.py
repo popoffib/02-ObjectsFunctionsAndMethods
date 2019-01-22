@@ -112,4 +112,3 @@ window.close_on_mouse_click()
 # Calls  main  to start the ball rolling.
 # -----------------------------------------------------------------------------
 main()
-window.close_on_mouse_click()
